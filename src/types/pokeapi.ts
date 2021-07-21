@@ -31,7 +31,7 @@ export interface IAPIPokemon {
         type: {
             name: string;
             url: string;
-        }[];
-    };
+        };
+    }[];
     weight: number;
 }
